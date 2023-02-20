@@ -38,7 +38,6 @@ function App() {
 
   return (
     <>
-      <h1>helloo</h1>
       <Header/>
       <div className='main-container'>
         <h1 className='crypto-title '>Enquire Crypto Price</h1>
