@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./App.css"
 
 import Cointoken from './CT/Cointoken'
+import Footer from './footer/Footer'
 import Header from './header/Header'
 
 
@@ -61,6 +62,7 @@ function App() {
         <button onClick={boredApi} className='price-btn'>Enquire</button>
       </div>
       <Cointoken />
+      <Footer />
     </>
   )
 }
